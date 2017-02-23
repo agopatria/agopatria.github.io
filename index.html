@@ -19,8 +19,7 @@
 	</script>
 </head>
 <body>
-asdnlksandl
-	<div class="bag-home">
+	<div id="bag-home" class="bag-home">
 		<div class="container">
 			<div class="row bag-nav">
 				<div class="col-md-6">
@@ -32,10 +31,10 @@ asdnlksandl
 					<div id="myNav" class="overlay">
 						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 						<div class="overlay-content">
-							<a href="#">Home</a>
-							<a href="#">Skill</a>
-							<a href="#">Experience</a>
-							<a href="#">Contact</a>
+							<a onclick="closeNav()" class="scroll" href="#bag-home">Home</a>
+							<a onclick="closeNav()" class="scroll" href="#bag-skill">Skill</a>
+							<a onclick="closeNav()" class="scroll" href="#bag-exp">Experience</a>
+							<a onclick="closeNav()" class="scroll" href="#bag-contact">Contact</a>
 						</div>
 					</div>
 					<a href="#" class="bag-menu-burger ">
@@ -61,7 +60,7 @@ asdnlksandl
 		</div>
 	</div> -->
 
-	<div class="bag-skill bg-img">
+	<div id="bag-skill" class="bag-skill bg-img">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -72,9 +71,9 @@ asdnlksandl
 							<div class="bar_group" max='100'>
 								<div class='bar_group__bar thick' label='HTML' value='80' tooltip='true'></div>
 								<div class='bar_group__bar thick' label='CSS' value='60' tooltip='true'></div>
-								<div class='bar_group__bar thick' label='JavaScript' value='30' tooltip='true'></div>
+								<div class='bar_group__bar thick' label='JavaScript' value='50' tooltip='true'></div>
 								<div class='bar_group__bar thick' label='CorelDraw' value='90' tooltip='true'></div>
-								<div class='bar_group__bar thick' label='Photoshop' value='50' tooltip='true'></div>
+								<div class='bar_group__bar thick' label='Photoshop' value='70' tooltip='true'></div>
 							</div>
 						</div>
 					</div>
@@ -83,7 +82,7 @@ asdnlksandl
 		</div>
 	</div>
 
-	<div class="bag-exp bg-img">
+	<div id="bag-exp" class="bag-exp bg-img">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -111,7 +110,7 @@ asdnlksandl
 		</div>	
 	</div>
 
-	<div class="bag-contact bg-img">
+	<div id="bag-contact" class="bag-contact bg-img">
 		<div class="container">
 			<div class="row">
 				<p class="title"><span class="highlight">CONTACT</span>ME</p>
