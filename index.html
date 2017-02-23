@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Ago Patria's Website</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/bars.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,700,700i,900,900i|Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+		function openNav() {
+		    document.getElementById("myNav").style.width = "100%";
+		}
+		function closeNav() {
+		    document.getElementById("myNav").style.width = "0%";
+		}
+	</script>
+</head>
+<body>
+	<div class="bag-home">
+		<div class="container">
+			<div class="row bag-nav">
+				<div class="col-md-6">
+					<div class = "navbar-header">
+						<a class = "navbar-brand" href = "#home"><span class="bag-logo">A P</span></a>
+					</div> 
+				</div>
+				<div class="col-md-6">
+					<div id="myNav" class="overlay">
+						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+						<div class="overlay-content">
+							<a href="#">Home</a>
+							<a href="#">Skill</a>
+							<a href="#">Experience</a>
+							<a href="#">Contact</a>
+						</div>
+					</div>
+					<a href="#" class="bag-menu-burger ">
+						<i onclick="openNav()" class="material-icons" style="font-size: 35px;">menu</i>
+					</a>
+				</div>
+			</div>
+			<div class="bag-title">
+				<p class="title">HELLO</p>
+				<p class="title">I'M <span class="highlight">AGO PATRIA</span></p>
+				<p class="sub-title">Welcome to my personal website</p>
+			</div>
+		</div>
+	</div>
+	
+<!-- 	<div class="bag-about bg-img">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="title"><span class="highlight">ABOUT</span>ME</p>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<div class="bag-skill bg-img">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="title">MY<span class="highlight">SKILLS</span></p>
+					<div class="row">
+						<div class="col-md-2"></div>
+						<div class="col-md-8">
+							<div class="bar_group" max='100'>
+								<div class='bar_group__bar thick' label='HTML' value='80' tooltip='true'></div>
+								<div class='bar_group__bar thick' label='CSS' value='60' tooltip='true'></div>
+								<div class='bar_group__bar thick' label='JavaScript' value='30' tooltip='true'></div>
+								<div class='bar_group__bar thick' label='CorelDraw' value='90' tooltip='true'></div>
+								<div class='bar_group__bar thick' label='Photoshop' value='50' tooltip='true'></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="bag-exp bg-img">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="title">MY<span class="highlight">EXPERIENCE</span></p>
+					<div class="row">
+						<div class="col-md-6">
+							<i class="material-icons" style="font-size: 50px">school</i>
+							<p class="title-exp"><span class="highlight">Duta Wacana Christian University </span><strong class="tahun">2012 - 2016</strong></p>
+							<p>Bachelor's Degree in Information Technology with GPA 3.24</p>
+							<p class="title-exp"><span class="highlight">9 Senior High School Yogyakarta </span><strong class="tahun">2009 - 2012</strong></p>
+							<p>Major Science</p>
+						</div>
+						<div class="col-md-6">
+							<i class="material-icons" style="font-size: 50px">work</i>	
+							<p class="title-exp"><span class="highlight">Freelance UI/UX Designer</span> @ PT KANISIUS <strong class="tahun">Jun 2016 - Aug 2016</strong></p>
+							<p>Create template for website using Corel Draw</p>
+							<p class="title-exp"><span class="highlight">Internship Web Developer</span> @ SD N Candi 3 <strong class="tahun">Jul 2015 - Dec 2015</strong></p>
+							<p>Create website using CakePHP Framework</p>
+							<p class="title-exp"><span class="highlight">Freelance Graphics Designer</span> @ HUMAS UKDW <strong class="tahun">Jul 2013 - Dec 2014</strong></p>
+							<p>Create poster, banner and billboard</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<div class="bag-contact bg-img">
+		<div class="container">
+			<div class="row">
+				<p class="title"><span class="highlight">CONTACT</span>ME</p>
+				<div class="col-xs-4 col-md-4">
+					<i class="material-icons" style="font-size:36px;">place</i>
+					<h4>Prawirotaman2MGIII/617</h4>
+					<h4>Yogyakarta,Indonesia</h4>
+				</div>
+				<div class="col-xs-4 col-md-4">
+					<i class="material-icons" style="font-size:36px;">email</i>
+					<h4>yb.agopatria@gmail.com</h4>
+					<h4>www.agopatria.com</h4>
+				</div>
+				<div class="col-xs-4 col-md-4">
+					<i class="material-icons" style="font-size:36px;">call</i>
+					<h4>+6287839553663</h4>
+				</div>
+			</div>
+			
+			<form action="#" method="post"  style="padding: 30px 0px 30px;" >
+				<input type="text" name="name" class="name" placeholder="Your Name" required="">
+				<input type="text" name="email" class="email" placeholder="Your Email" required="">
+				<textarea  name="your message" placeholder="Your Message"  required=""></textarea>
+				<br><br>
+				<input type="submit" value="Send Message">
+			</form>
+		</div>
+	</div>
+
+	<div class="bag-footer">
+		<div class="container">
+			<p>  &copy; 2017 Yohanes Baptista Ago Patria. All Rights Reserved</p>		
+		</div>
+	</div>
+
+	<script src="js/bars.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop:$(this.hash).offset().top
+				},500);
+			});
+		});
+		jQuery(document).ready(function() {
+	    jQuery('.post').addClass("hidden").viewportChecker({
+	        classToAdd: 'visible animated fadeIn',
+	        offset: 100
+	       });
+	});
+	</script>
+</body>
+</html>
